@@ -1,0 +1,98 @@
+/* #region top nav */
+.topnav {
+    width: 100%;
+    background-color: #FF4655FF;
+    position: fixed;
+}
+.actualNavigationTools {
+    text-align: right;
+    padding-right: 2.5%;
+    font-size: 40px;
+}
+
+.dropbtn { /* drop down button */
+    border: none;
+}
+.dropdown { /* The container <div> - needed to position the dropdown content */
+    position: relative;
+    display: inline-block;
+}  
+.dropdown-content {  /* Dropdown Content (Hidden by Default) */
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    white-space: nowrap;
+}
+.dropdown-content a {/* Links inside the dropdown */
+    color: black;
+    float: none;
+    text-decoration: none;
+    white-space: nowrap;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+
+/* #endregion */
+
+
+body {
+    margin: 0;
+}
+
+
+/* #region sponsors */
+.sponsors {
+    text-align: center;
+    object-fit:contain;
+    max-width: 100%;
+}
+/* #endregion */
+
+
+/* #region footer */
+.footer {
+    background-color: grey;
+}
+
+.footer--socials {
+    padding-top: 1%;
+    padding-left: 4.2%;
+}
+.socialIcon {
+    max-height: 42px;
+    max-width: 42px;
+    padding-right: 32px;
+}
+
+.footer--sponsors {
+    padding-left: 4.2%;
+}
+
+.footer--navigation {
+    padding-left: 4.2%;
+    display: inline-flex;
+    padding-bottom: 4%;
+}
+.navigation--teams {
+    padding-left: 10%;
+}
+/* #endregion */
+
+
+/* #region text */
+h1 {
+    text-decoration: none;
+    color: #FF4655FF;
+    white-space: nowrap;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: grey;
+}
+/* #endregion */
